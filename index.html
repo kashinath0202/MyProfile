@@ -4,6 +4,7 @@
 <head>
     <title> My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="developer.png" type="image/x-icon">
     <style>
         body {
             margin: 0;
@@ -11,59 +12,104 @@
             box-sizing: border-box
         }
 
-        .navbar {
+        .info {
             width: 100%;
-            height: 50px;
+            height: 40px;
             background-color: rgb(42, 42, 131);
             color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
         }
 
-        .navbar ul {
-            margin: 0;
-            padding: 0;
-        }
-
-
-        .navbar li {
+        .info li {
             display: inline-block;
             list-style: none;
-            padding: 12px 12px 50px 50px;
+            padding: 0px 20px;
+
+
         }
 
-        .navbar li i {
+        .info li i {
             font-size: larger;
             color: rgb(201, 175, 28);
         }
 
-
-        footer {
+        .navbar {
+            width: 100%;
             height: 50px;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+
+        .navbar ul {
+            float: left;
+        }
+
+        .navbar li {
+            list-style: none;
+            display: inline-block;
+            padding: 0px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 21px;
+            letter-spacing: 1.5px;
+
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .icon {
+            height: 40px;
             width: 100%;
             background-color: rgb(1, 1, 14);
             color: rgb(245, 236, 240);
-            text-align: center;
-            padding-top: 12px;
             font-size: x-large;
+            display: flex;
+            align-items: center;
         }
 
-        footer i {
+        .icon i {
 
-            padding: 5px;
+            padding: 0px 20px;
+            text-align: center;
         }
+
     </style>
 </head>
 
 <bodY>
-    header
-    <nav class="navbar">
+    <header class="info">
         <ul>
             <li><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Kashinath Jeure</li>
             <li><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;+909096949202</li>
             <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;kashinathjeure@gmail.com</li>
         </ul>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="hellow.html" target="my frame">home</a></li>
+            <li><a href="techStack.html" target="my frame">tech stack</a></li>
+            <li><a href="college.htm" target="my frame">education</a></li>
+            <li><a href="project.html" target="my frame">project</a></li>
+            <li><a href="gallary.html" target="my frame">hobbies</a></li>
+            <li><a href="personalDetail.html" target="my frame">personal</a></li>
+            <li><a href="#" target="my frame">others</a></li>
+        </ul>
     </nav>
-        <iframe  height="550px" width="900px" style="background-color:cyan;"></iframe>
-    <footer>
+    <section>
+               <iframe src="ganesh1.jpg" height="500px" width="1000px" name="my frame" style="background-color:cyan;"></iframe>
+    </section>
+    <footer class="icon">
         <strong><i>Follow me</i></strong>
         <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"
                 style="color:rgb(94, 94, 212);"></i></a>
