@@ -5,27 +5,60 @@
     <title> My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="developer.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <style>
             .head{
-                color: white;
-                background-color:chocolate;
+                color: #e67e22;
+                background-color:#ecf0f1;
+                text-align:center;
+                font-size:20px;
+ 
+              }
+             .navbar{
+                font-size: 20px;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+                text-decoration: none;
+                list-style: none;
+                background-color: #ecf0f1;
             }
-             
+            .navbar,a{
+              text-decoration: none;
+              font-family: 'Roboto Slab', serif;
+              color:#0a9fe4;
+            }
+             iframe{
+              height: 520px;
+              width:1000px;
+              border:none;
+              padding:0px 250px; 
+
+             }
+            .icon{
+              text-align: center;
+              font-size:20px;
+              background-color: rgb(44, 40, 40);
+              color: #ecf0f1;
+            }
+            
     </style>
    </head>
 
     <bodY>
        <header class="head">
         
-            <i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Kashinath Jeure
+            <i class="fa fa-user-circle-o" aria-hidden="true">&nbsp;Kashinath Jeure</i>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;+909096949202
+            <i class="fa fa-phone-square" aria-hidden="true">&nbsp;+909096949202</i>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;kashinathjeure@gmail.com
+            <i class="fa fa-envelope" aria-hidden="true">&nbsp;kashinathjeure@gmail.com</i>
         
         </header>
                   <br>
-        <nav>
+        <nav class="navbar">
         
             <a href="home.html" target="my frame">Home</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -43,9 +76,9 @@
         </nav>
                <br>
         <section>
-               <iframe src="ganesh1.jpg" height="500px" width="1000px" name="my frame"></iframe>
+               <iframe src="ganesh1.jpg"  name="my frame"></iframe>
         </section>
-        <footer>
+        <footer class="icon">
             <strong><i>Follow me</i></strong>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"
