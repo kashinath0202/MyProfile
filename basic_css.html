@@ -9,10 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <style>
+             body{
+              margin: 0;
+              padding: 0;
+              background-color: rgb(124, 107, 107);
+             }
+
             .head{
                 color: #e67e22;
                 background-color:#ecf0f1;
-                text-align:center;
+                text-align:right;
                 font-size:20px;
  
               }
@@ -24,17 +30,22 @@
                 text-decoration: none;
                 list-style: none;
                 background-color: #ecf0f1;
+                border-radius: 15px;
             }
-            .navbar,a{
+            .navbar a{
               text-decoration: none;
               font-family: 'Roboto Slab', serif;
               color:#0a9fe4;
+              margin: 20px;
+              text-align: left;
+              
             }
              iframe{
               height: 520px;
               width:1000px;
               border:none;
-              padding:0px 250px; 
+              background-color: rgb(121, 204, 204);
+             
 
              }
             .icon{
@@ -42,36 +53,43 @@
               font-size:20px;
               background-color: rgb(44, 40, 40);
               color: #ecf0f1;
+              width:100%;
             }
+            .head span{
+              margin: 5px;
+            }
+            .head i{
+             margin:5px 20px;
+            }
+            .icon a{
+              padding: 30px;
+            
+             }
+             .icon span{
+              font-style: italic;
+             }
+
             
     </style>
    </head>
 
     <bodY>
+
        <header class="head">
         
-            <i class="fa fa-user-circle-o" aria-hidden="true">&nbsp;Kashinath Jeure</i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone-square" aria-hidden="true">&nbsp;+909096949202</i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope" aria-hidden="true">&nbsp;kashinathjeure@gmail.com</i>
+    <i class="fa fa-user-circle-o" aria-hidden="true"><span>Kashinath Jeure</span></i>
+      <i class="fa fa-phone-square" aria-hidden="true"> <span> +909096949202</span></i>
+         <i class="fa fa-envelope" aria-hidden="true"><span> kashinathjeure@gmail.com</span></i>
         
         </header>
                   <br>
         <nav class="navbar">
-        
             <a href="home.html" target="my frame">Home</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="techStack.html" target="my frame">Tech Stack</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="college.htm" target="my frame">Education</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="education.html" target="my frame">Education</a>
             <a href="project.html" target="my frame">Project</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="gallary.html" target="my frame">Hobbies</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="personalDetail.html" target="my frame">Personal</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#" target="my frame">Others</a>
         </nav>
                <br>
@@ -79,17 +97,13 @@
                <iframe src="ganesh1.jpg"  name="my frame"></iframe>
         </section>
         <footer class="icon">
-            <strong><i>Follow me</i></strong>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>Follow me</span>
               <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"
                 style="color:rgb(94, 94, 212);"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"
                 style="color:rgb(94, 94, 212);"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"
                 aria-hidden="true" style="color:#8a3ab9;"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google" aria-hidden="true"
                 style="color: rgb(236, 65, 65);"></i></a>
        </footer>
